@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Technology Website Design</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href ="https://fonts.googleapis.com/css2?family=Chocolate+Classical+Sans&
+        family=Palanquin:wght@100;200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,
+        300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/logo.png.jpg" alt=""></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onClick="hideMenu()"></i>
+                    <ul>
+                        <Li><a href="index.html">HOME</a></Li>
+                        <Li><a href="about.html.html">ABOUT</a></Li>
+                        <Li><a href="role.html.html">ROLES</a></Li>
+                        <Li><a href="blog.html.html">BLOG</a></Li>
+                        <Li><a href="content.html.html">CONTACT</a></Li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onClick="showMenu()"></i>
+            </nav>
+           <h1>About Us</h1>
+        </section>
+        <!-----------about us content-------->
+        <section class="about-us">
+            <div class="row">
+                <div class="about-col">
+                    <h1>We are passionate teams of software developers</h1>
+                    <p>Hé ! Envie de créer des trucs géniaux avec une équipe talentueuse et passionnée ? 
+                        On est MATLC, une société de développement de logiciels qui travaille sur des outils 
+                        d'intelligence artificielle de pointe permettant aux entreprises de rationaliser leurs 
+                        opérations et de débloquer de nouvelles opportunités de croissance. On met l'accent 
+                        sur l'innovation, la collaboration et un bon équilibre entre vie professionnelle et vie privée. 
+                        Si vous êtes un développeur qui s'épanouit dans un environnement dynamique et créatif, 
+                        on aimerait bien discuter avec vous !</p>
+                        <a href="" class="hero-btn blue-btn">EXPLORE NOW</a>
+                        </div>
+                    <div class="about-col">
+                        <img src="images/about us.png.png">
+                    </div>
+                </div>
+        </section>
+        
+        
+        <!----------Footer---------->
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>We're a passionate team of software developers who believe in the power of technology to change the world. 
+                 We're not just writing code, we're crafting the future.<br>
+                Our team works on cutting-edge projects, tackling innovative challenges and using the latest 
+                advancements in the field. <br> We're driven by a shared desire to make a real impact  and create
+                 something groundbreaking.</p>
+                 <div class="icons">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-linkedin"></i>
+                 </div>
+                 <p>Made with<i class="fa fa-heart-o"></i>by MATLC</p>
+        </section>
+        <!-------JavaScript for Toggle Menu-------->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right ="0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>
