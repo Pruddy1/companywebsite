@@ -13,5 +13,5 @@ $to = 'oreoluwadada6@gmail.com';
 $headers = "From: $email_from \r\n";
 $headers .= "Reply-To: $visitor_email \r\n";
 mail($to,$email_interest,$email_body,$headers);
-header("Location: content.html.html");
+header("Location:https://companywebsite2.onrender.com/content.html.html");
 ?>
