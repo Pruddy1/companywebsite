@@ -3,7 +3,7 @@ $name = $_POST['name'];
 $visitor_email = $_POST['email'];
 $interest = $_POST['interest'];
 $message = $_POST['message'];
-$email_from = 'matlc@yourwebsite.com';
+$email_from = 'https://companywebsite2.onrender.com';
 $email_interest = 'New Form Submission';
 $email_body = "User Name: $name.\n". 
               "User Email: $visitor_email.\n". 
